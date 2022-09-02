@@ -9,7 +9,6 @@ function post (){
     XHR.responseType = "json";
     XHR.send(formData);
   });
-  //リクエストを送信する処理
  };
  
  window.addEventListener('load', post);
